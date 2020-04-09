@@ -15,7 +15,7 @@ var sum3 = (a, b) => {
 }
 sum3(3, 4);
 
-//? Bài toán, this ở đây là gì?
+//? Bài toán: this ở đây là gì?
 var a = {
     foo: "bar",
     run: function(){
