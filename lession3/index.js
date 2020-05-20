@@ -1,17 +1,17 @@
 //TODO arrow function expression
 
 function sum(a, b){
-    return a + b;
+    console.log( a + b );
 };
 sum(1, 2);
 
 var sum2 = function(a, b){
-    return a + b;
+    console.log( a + b );
 };
 sum2(2, 3);
 
 var sum3 = (a, b) => {
-    return a + b;
+    console.log( a + b );
 }
 sum3(3, 4);
 
@@ -21,10 +21,10 @@ var a = {
     run: function(){
         setTimeout(function(){
             console.log(this.foo);
-        }, 1000);
+        }, 300);
     }
 };
-a.run()
+a.run() //! undefined
 
 //TODO Khắc phục cách 1:
 var a = {
