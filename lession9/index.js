@@ -2,9 +2,8 @@
 function Mouse(name) {
   this.name = name;
 }
-
 Mouse.prototype.render = function () {
-  console.log(`${this.name} is running`);
+  console.log(`${this.name} is rendering...`);
 };
 
 const Mickey = new Mouse("Mickey");
@@ -17,9 +16,8 @@ class Mouse2 {
   }
 
   render() {
-    console.log(`${this.name} is rendering`);
+    console.log(`${this.name} is rendering...`);
   }
 }
-
 const Jerry = new Mouse2("Jerry");
-Jerry.render()
+Jerry.render();

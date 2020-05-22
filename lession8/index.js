@@ -2,7 +2,6 @@
 function Mouse(name) {
   this.name = name;
 }
-
 Mouse.prototype.render = function () {
   console.log(`Hello ${this.name}.`);
 };
@@ -17,7 +16,6 @@ const Jerry = {
     console.log(`Hello ${this.name}.`);
   },
 };
-
 Jerry.render();
 
 //* enhanced object literals
@@ -28,5 +26,4 @@ const cat = {
     console.log(`Hello ${this.name}.`);
   },
 };
-
 cat.render();
