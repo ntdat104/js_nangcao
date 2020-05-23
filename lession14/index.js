@@ -1,4 +1,5 @@
 //* ...rest
+//! Gom các giá trị thành 1 array.
 
 function log(a, ...numbers) {
   console.log(a); //* 1
